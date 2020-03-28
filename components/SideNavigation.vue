@@ -95,13 +95,13 @@ export default Vue.extend({
       return [
         {
           icon: 'mdi-chart-timeline-variant',
-          title: this.$t('都内の最新感染動向'),
+          title: this.$t('県内の最新感染動向'),
           link: this.localePath('/')
         },
         {
           icon: 'CovidIcon',
           title: this.$t('新型コロナウイルス感染症が心配なときに'),
-          link: this.localePath('/flow'),
+          link: 'https://www.pref.shizuoka.jp/kinkyu/images/pos_page-0001.jpg',
           divider: true
         },
         {
@@ -127,7 +127,12 @@ export default Vue.extend({
         },
         {
           title: this.$t('静岡県公式ホームページ'),
-          link: 'https://www.pref.shizuoka.jp/'
+          link: 'https://www.pref.shizuoka.jp/',
+          divider: true
+        },
+        {
+          title: this.$t('民間支援情報ナビ For 静岡県版'),
+          link: 'https://vs-covid19-shizuoka.netlify.com/'
         }
       ]
     }
