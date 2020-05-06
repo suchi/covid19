@@ -1,0 +1,32 @@
+# This is a workflow to create data.json with Actions	
+name: data.json builder
+env:
+  TZ: Asia/Tokyo
+on:
+  schedule:
+    - cron:  '0 * * * *'
+jobs:
+  check_data:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: dev-hamamatsu
+    - name: RUN PYTHON SCRIPT(create data.json)
+      run: |
+        python3 -c "import os; os.chdir('tool'); import create_data_json; x = create_data_json.process('${{ secrets.APIKEY_CSV2JSON }}'); print(x)" > data/hamamatsu/data.json
+        
+    - name: commit data.json if update
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add data/hamamatsu/data.json
+        git commit -m "[BOT] Update data.json" || true
+        git fetch origin dev-hamamatsu
+        git merge
+
+    - name: PUSH changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: 'dev-hamamatsu'

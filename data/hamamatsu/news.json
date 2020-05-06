@@ -1,59 +1,69 @@
 {
   "newsItems": [
     {
-      "date": "2020/04/09",
+      "date": "2020/05/05",
+      "url": "https://www.youtube.com/watch?v=froDFmm--ZA&list=PLpoFSIeePqNN3bLwRCv-r1xonybflTOmG",
+      "text": "市長臨時会見について（別ウィンドウが開きます）"
+    },
+    {
+      "date": "2020/05/05",
+      "url": "https://www.city.hamamatsu.shizuoka.jp/fukushisomu/r2teigkukyuufukin_pre.html",
+      "text": "特別定額給付金について"
+    },
+    {
+      "date": "2020/05/05",
+      "url": "https://www.city.hamamatsu.shizuoka.jp/sangyoshinko/shougyo2.html",
+      "text": "浜松市の休業要請に基づく協力金の支給について"
+    },
+    {
+      "date": "2020/05/05",
+      "url": "https://www.city.hamamatsu.shizuoka.jp/kiki/kaigi_1.html",
+      "text": "浜松市新型コロナウイルス感染症対策本部会議"
+    },
+    {
+      "date": "2020/05/05",
       "url": "",
-      "text": "新型コロナウイルスに関するPCR検査実施状況（4月7日現在）2月14日～4月9日　346件"
+      "text": "新型コロナウイルスに関するPCR検査実施状況（5月5日現在）2月14日～5月5日　789件"
     },
     {
-      "date": "2020/04/09",
-      "url": "https://www.city.hamamatsu.shizuoka.jp/koho2/emergency/20200408_7.html",
-      "text": "新型コロナウイルス感染症による患者確認について【7例目】"
+      "date": "2020/05/01",
+      "url": "https://www.youtube.com/watch?v=qowejxD8bNk&list=PLpoFSIeePqNN3bLwRCv-r1xonybflTOmG",
+      "text": "市長臨時会見について（別ウィンドウが開きます）"
     },
     {
-      "date": "2020/04/09",
-      "url": "https://www.city.hamamatsu.shizuoka.jp/koho2/emergency/20200408_6.html",
-      "text": "新型コロナウイルス感染症による患者確認について【6例目】"
+      "date": "2020/05/01",
+      "url": "https://www.city.hamamatsu.shizuoka.jp/somu/taiou11.html",
+      "text": "市立小中学校及び市立高等学校の臨時休業の延長"
     },
     {
-      "date": "2020/04/09",
-      "url": "https://www.city.hamamatsu.shizuoka.jp/koho2/emergency/20200408_5.html",
-      "text": "新型コロナウイルス感染症による患者確認について【5例目】"
-    },
-    {
-      "date": "2020/04/09",
-      "url": "https://www.city.hamamatsu.shizuoka.jp/koho2/emergency/korona_event4.html",
+      "date": "2020/05/01",
+      "url": "https://www.city.hamamatsu.shizuoka.jp/koho2/emergency/korona_event2005.html",
       "text": "市主催等のイベント開催中止・延期"
     },
     {
-      "date": "2020/04/09",
+      "date": "2020/05/01",
       "url": "https://www.city.hamamatsu.shizuoka.jp/koho2/emergency/korona_shisetsu.html",
-      "text": "施設の臨時休館"
+      "text": "施設の臨時休館更新しました"
     },
     {
-      "date": "2020/04/08",
-      "url": "https://www.city.hamamatsu.shizuoka.jp/koho2/emergency/20200408_2.html",
-      "text": "新型コロナウイルス感染症による患者確認について"
+      "date": "2020/05/01",
+      "url": "https://www.city.hamamatsu.shizuoka.jp/fukushisomu/jyuukyokakuho.html",
+      "text": "住居確保給付金の支給"
     },
     {
-      "date": "2020/04/08",
-      "url": "https://www.city.hamamatsu.shizuoka.jp/koho2/emergency/20200408_1.html",
-      "text": "新型コロナウイルス感染症による患者確認について【4例目】"
+      "date": "2020/04/30",
+      "url": "https://www.city.hamamatsu.shizuoka.jp/fukushisomu/tokubetsuteigaku.html",
+      "text": "「特別定額給付金事務局」の設置及び「新型コロナコールセンター」の開設"
     },
     {
-      "date": "2020/04/07",
-      "url": "https://www.city.hamamatsu.shizuoka.jp/koho2/emergency/korona_shicho0407.html",
-      "text": "市長メッセージ"
+      "date": "2020/04/30",
+      "url": "https://www.city.hamamatsu.shizuoka.jp/sangyosomu/kochoukinsoudan.html",
+      "text": "雇用調整助成金等に関する相談窓口のご案内"
     },
     {
-      "date": "2020/04/07",
-      "url": "https://www.city.hamamatsu.shizuoka.jp/kiki/kaigi_1.html",
-      "text": "第6回　浜松市新型コロナウイルス感染症対策本部会議"
-    },
-    {
-      "date": "2020/04/07",
-      "url": "https://www.city.hamamatsu.shizuoka.jp/somu/taiou08.html",
-      "text": "市立小中学校及び市立高等学校の臨時休業等"
+      "date": "2020/04/28",
+      "url": "https://www.city.hamamatsu.shizuoka.jp/kiki/kyuugyouyousei.html",
+      "text": "休業要請対象施設の追加について"
     }
   ]
 }
